@@ -1,0 +1,21 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "sshfs.configs": [
+        {
+            "name": "minix",
+            "port": 2222,
+            "username": "root",
+            "password": "123456",
+            "host": "localhost",
+            "root": "/usr/src/"
+        }
+    ],
+    "files.encoding": "cp437",
+    "files.autoSave": "afterDelay",
+    "remote.SSH.remotePlatform": {
+        "hadoop-docker": "linux",
+        "ubuntu_vscode": "linux"
+    }
+}

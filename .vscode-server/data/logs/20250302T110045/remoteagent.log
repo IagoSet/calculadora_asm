@@ -1,0 +1,33 @@
+2025-03-02 11:00:45.421 [info] 
+
+
+
+
+2025-03-02 11:00:45.444 [info] Extension host agent started.
+2025-03-02 11:00:45.553 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu_user/.vscode-server/extensions
+2025-03-02 11:00:45.556 [info] [<unknown>][88d8afa4][ManagementConnection] New connection established.
+2025-03-02 11:00:45.563 [info] [<unknown>][0a4f6117][ExtensionHostConnection] New connection established.
+2025-03-02 11:00:45.689 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu_user/.vscode-server/extensions
+2025-03-02 11:00:45.924 [info] [<unknown>][0a4f6117][ExtensionHostConnection] <23613> Launched Extension Host Process.
+2025-03-02 11:01:12.053 [info] [<unknown>][88d8afa4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-02 11:01:12.177 [info] [<unknown>][0a4f6117][ExtensionHostConnection] <23613> Extension Host Process exited with code: 0, signal: null.
+2025-03-02 11:01:12.180 [info] Cancelling previous shutdown timeout
+2025-03-02 11:01:12.180 [info] Last EH closed, waiting before shutting down
+2025-03-02 11:01:42.405 [info] [<unknown>][0b384e7b][ManagementConnection] New connection established.
+2025-03-02 11:01:42.413 [info] [<unknown>][1f5f16de][ExtensionHostConnection] New connection established.
+2025-03-02 11:01:42.425 [info] [<unknown>][1f5f16de][ExtensionHostConnection] <23773> Launched Extension Host Process.
+2025-03-02 11:01:44.663 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at I.W (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateTitle (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-02 11:01:59.820 [warning] No ptyHost heartbeat after 6 seconds

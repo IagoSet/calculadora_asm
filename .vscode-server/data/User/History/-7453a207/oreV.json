@@ -1,0 +1,26 @@
+{
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "bottom",
+    "jdk.jdkhome": "c:\\Users\\iagos\\Documents\\POO\\Oracle_JDK-23",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "python.createEnvironment.trigger": "off",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "ms-settings"
+    ],
+    "remote.SSH.remotePlatform": {
+        "ubuntu_vscode": "linux"
+    }
+}

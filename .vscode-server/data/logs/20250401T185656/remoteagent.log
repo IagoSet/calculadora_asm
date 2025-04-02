@@ -1,0 +1,99 @@
+2025-04-01 18:56:56.903 [info] 
+
+
+
+
+2025-04-01 18:56:56.918 [info] Extension host agent started.
+2025-04-01 18:56:56.992 [info] [<unknown>][cb115a26][ManagementConnection] New connection established.
+2025-04-01 18:56:57.003 [info] [<unknown>][2bd136aa][ExtensionHostConnection] New connection established.
+2025-04-01 18:56:57.232 [info] [<unknown>][2bd136aa][ExtensionHostConnection] <1902> Launched Extension Host Process.
+2025-04-01 18:58:14.438 [info] [<unknown>][cb115a26][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-01 18:58:14.486 [info] [<unknown>][2bd136aa][ExtensionHostConnection] <1902> Extension Host Process exited with code: 0, signal: null.
+2025-04-01 18:58:14.487 [info] Cancelling previous shutdown timeout
+2025-04-01 18:58:14.487 [info] Last EH closed, waiting before shutting down
+2025-04-01 18:58:31.679 [info] [<unknown>][0a9eda5b][ManagementConnection] New connection established.
+2025-04-01 18:58:31.682 [info] [<unknown>][c8d234f4][ExtensionHostConnection] New connection established.
+2025-04-01 18:58:31.687 [info] [<unknown>][c8d234f4][ExtensionHostConnection] <2094> Launched Extension Host Process.
+2025-04-01 18:58:33.816 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-01 18:59:25.097 [info] [<unknown>][0a9eda5b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-01 18:59:25.183 [info] [<unknown>][c8d234f4][ExtensionHostConnection] <2094> Extension Host Process exited with code: 0, signal: null.
+2025-04-01 18:59:25.184 [info] Cancelling previous shutdown timeout
+2025-04-01 18:59:25.184 [info] Last EH closed, waiting before shutting down
+2025-04-01 18:59:38.486 [info] [<unknown>][b5e0e484][ManagementConnection] New connection established.
+2025-04-01 18:59:38.496 [info] [<unknown>][90fcb52a][ExtensionHostConnection] New connection established.
+2025-04-01 18:59:38.503 [info] [<unknown>][90fcb52a][ExtensionHostConnection] <2299> Launched Extension Host Process.
+2025-04-01 18:59:40.688 [error] CodeExpectedError: Could not find pty 5 on pty host
+    at I.W (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-01 18:59:45.657 [info] [<unknown>][b5e0e484][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-01 18:59:45.712 [info] [<unknown>][90fcb52a][ExtensionHostConnection] <2299> Extension Host Process exited with code: 0, signal: null.
+2025-04-01 18:59:45.713 [info] Cancelling previous shutdown timeout
+2025-04-01 18:59:45.714 [info] Last EH closed, waiting before shutting down
+2025-04-01 18:59:56.103 [info] [<unknown>][fcf6fbb7][ExtensionHostConnection] New connection established.
+2025-04-01 18:59:56.109 [info] [<unknown>][14abee78][ManagementConnection] New connection established.
+2025-04-01 18:59:56.118 [info] [<unknown>][fcf6fbb7][ExtensionHostConnection] <2425> Launched Extension Host Process.
+2025-04-01 18:59:56.120 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/server-main.js:183:1060)
+    at process.emit (node:events:530:35)
+2025-04-01 18:59:58.246 [error] CodeExpectedError: Could not find pty 6 on pty host
+    at I.W (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-01 19:00:01.287 [info] [<unknown>][14abee78][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-01 19:00:01.366 [info] [<unknown>][fcf6fbb7][ExtensionHostConnection] <2425> Extension Host Process exited with code: 0, signal: null.
+2025-04-01 19:00:01.367 [info] Cancelling previous shutdown timeout
+2025-04-01 19:00:01.367 [info] Last EH closed, waiting before shutting down
+2025-04-01 19:00:13.424 [info] [<unknown>][b5bd81c5][ManagementConnection] New connection established.
+2025-04-01 19:00:13.429 [info] [<unknown>][69cf127d][ExtensionHostConnection] New connection established.
+2025-04-01 19:00:13.434 [info] [<unknown>][69cf127d][ExtensionHostConnection] <2597> Launched Extension Host Process.
+2025-04-01 19:00:21.089 [info] [<unknown>][b5bd81c5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-01 19:00:21.145 [info] [<unknown>][69cf127d][ExtensionHostConnection] <2597> Extension Host Process exited with code: 0, signal: null.
+2025-04-01 19:00:21.147 [info] Cancelling previous shutdown timeout
+2025-04-01 19:00:21.147 [info] Last EH closed, waiting before shutting down
+2025-04-01 19:00:28.408 [info] [<unknown>][2203cec2][ManagementConnection] New connection established.
+2025-04-01 19:00:28.417 [info] [<unknown>][d4ed7708][ExtensionHostConnection] New connection established.
+2025-04-01 19:00:28.422 [info] [<unknown>][d4ed7708][ExtensionHostConnection] <2729> Launched Extension Host Process.
+2025-04-01 19:05:21.153 [info] New EH opened, aborting shutdown
+2025-04-01 19:25:16.311 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-01 19:43:44.647 [info] Getting Manifest... danielsanmedium.dscodegpt
+2025-04-01 19:43:45.155 [info] Installing extension: danielsanmedium.dscodegpt {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu_user/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu_user/.vscode-server/extensions/extensions.json","path":"/home/ubuntu_user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-04-01 19:43:51.724 [info] Extension signature verification result for danielsanmedium.dscodegpt: Success. Internal Code: 0. Executed: true. Duration: 5227ms.
+2025-04-01 19:44:38.055 [info] Extracted extension to file:///home/ubuntu_user/.vscode-server/extensions/danielsanmedium.dscodegpt-3.9.49: danielsanmedium.dscodegpt
+2025-04-01 19:44:39.549 [info] Renamed to /home/ubuntu_user/.vscode-server/extensions/danielsanmedium.dscodegpt-3.9.49
+2025-04-01 19:44:39.688 [info] Extension installed successfully: danielsanmedium.dscodegpt file:///home/ubuntu_user/.vscode-server/extensions/extensions.json
+2025-04-01 20:34:55.346 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-01 20:53:19.814 [warning] No ptyHost heartbeat after 6 seconds

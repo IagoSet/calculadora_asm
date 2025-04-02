@@ -1,0 +1,20 @@
+{
+    "sftpSudo": true,
+    "remote.SSH.remotePlatform": {
+        "localhost": "linux",
+        "master_hadoop": "linux",
+        "worker1_hadoop": "linux",
+        "worker2_hadoop": "linux",
+        "base2_hadoop": "linux",
+        "master2_hadoop": "linux",
+        "worker3_hadoop": "linux",
+        "worker4_hadoop": "linux",
+        "hadoop_docker": "linux",
+        "IA_do_zero": "linux",
+        "Top_Banco": "linux",
+        "IA_DEV": "linux",
+        "assembly": "linux"
+    },
+    "files.autoSave": "afterDelay",
+    "makefile.configureOnOpen": true
+}

@@ -1,0 +1,32 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-434783fe-ac6f-4613-8537-7172455fc71d
+Extension host agent listening on /tmp/code-434783fe-ac6f-4613-8537-7172455fc71d
+
+[10:09:35] 
+
+
+
+
+[10:09:35] Extension host agent started.
+[10:09:35] [<unknown>][104201e9][ExtensionHostConnection] New connection established.
+[10:09:35] [<unknown>][288f003b][ManagementConnection] New connection established.
+[10:09:35] [<unknown>][104201e9][ExtensionHostConnection] <1504> Launched Extension Host Process.
+[10:10:45] [<unknown>][288f003b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:10:45] [<unknown>][104201e9][ExtensionHostConnection] <1504> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[10:10:45] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[10:10:45] Last EH closed, waiting before shutting down
+[10:10:47] No ptyHost heartbeat after 6 seconds
+[10:10:53] [<unknown>][1e36d28b][ManagementConnection] New connection established.
+[10:10:53] [<unknown>][eea5cc0d][ExtensionHostConnection] New connection established.
+[10:10:53] [<unknown>][eea5cc0d][ExtensionHostConnection] <1661> Launched Extension Host Process.
+[10:11:03] No ptyHost heartbeat after 6 seconds
+[10:11:18] No ptyHost heartbeat after 6 seconds
+[10:12:27] No ptyHost heartbeat after 6 seconds

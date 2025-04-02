@@ -1,0 +1,53 @@
+2025-03-07 10:09:35.605 [info] 
+
+
+
+
+2025-03-07 10:09:35.615 [info] Extension host agent started.
+2025-03-07 10:09:35.671 [info] [<unknown>][104201e9][ExtensionHostConnection] New connection established.
+2025-03-07 10:09:35.676 [info] [<unknown>][288f003b][ManagementConnection] New connection established.
+2025-03-07 10:09:35.743 [info] [<unknown>][104201e9][ExtensionHostConnection] <1504> Launched Extension Host Process.
+2025-03-07 10:10:45.869 [info] [<unknown>][288f003b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-07 10:10:45.911 [info] [<unknown>][104201e9][ExtensionHostConnection] <1504> Extension Host Process exited with code: 0, signal: null.
+2025-03-07 10:10:45.911 [info] Cancelling previous shutdown timeout
+2025-03-07 10:10:45.911 [info] Last EH closed, waiting before shutting down
+2025-03-07 10:10:47.982 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:10:53.104 [info] [<unknown>][1e36d28b][ManagementConnection] New connection established.
+2025-03-07 10:10:53.108 [info] [<unknown>][eea5cc0d][ExtensionHostConnection] New connection established.
+2025-03-07 10:10:53.111 [info] [<unknown>][eea5cc0d][ExtensionHostConnection] <1661> Launched Extension Host Process.
+2025-03-07 10:11:03.717 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:11:18.104 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:12:27.309 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:14:41.419 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:14:41.423 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu_user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/server-main.js:181:1060)
+    at process.emit (node:events:530:35)
+2025-03-07 10:15:46.213 [info] New EH opened, aborting shutdown
+2025-03-07 10:16:50.124 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:18:16.657 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:21:05.037 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:21:17.760 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:21:44.455 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:22:18.116 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:23:03.931 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:23:46.050 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:24:22.861 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:24:34.267 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:25:36.651 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:25:47.850 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:27:06.653 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:27:13.124 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:27:51.427 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:28:18.278 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:28:39.541 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:29:50.138 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:30:13.128 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:32:21.044 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:32:37.334 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:32:43.531 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:33:00.607 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:37:16.166 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:38:54.516 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:39:16.669 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:40:18.722 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-07 10:40:30.339 [warning] No ptyHost heartbeat after 6 seconds
