@@ -4,7 +4,7 @@ section .data
     msg3 db 'Escolha uma operacao (+, -, *, /): ',0
     resultado_msg db 'Resultado: ',0
     newline db 10, 0
-    error_msg db 'Erro: divisao por zero',0
+    error_msg db 'Erro: divisao por zero', 0
 
 section .bss
     num1 resb 10
@@ -70,11 +70,11 @@ _start:
     ; Converte os números para inteiros
     mov rsi, num1
     call str_to_int
-    mov rbx, rax  ; Armazena o primeiro número em rbx
+    mov rbx, rax  ; Armazena o primeiro número em rbx (dividendo)
 
     mov rsi, num2
     call str_to_int  ; Converte o segundo número
-    ; O resultado da conversão está em rax
+    ; O resultado da conversão está em rax, que agora deve ser o divisor
 
     ; Compara a operação
     movzx rcx, byte [op]
@@ -93,8 +93,7 @@ add_op:
     jmp print_result
 
 sub_op:
-    sub rbx, rax  ; Subtrai o segundo número do primeiro
-    mov rax, rbx  ; Move o resultado para rax
+    sub rax, rbx  ; O primeiro número menos o segundo
     jmp print_result
 
 mul_op:
@@ -102,23 +101,20 @@ mul_op:
     jmp print_result
 
 div_op:
-    cmp rbx, 0          ; Verifica se o divisor (num2) é zero
-    je div_error        ; Se for zero, pula para o tratamento de erro
-
-    ; Para divisão, o dividendo deve estar em rax e o divisor em rbx
-    mov rax, rbx        ; Coloca o primeiro número (num1) em rax (dividendo)
-    mov rbx, rsi        ; Coloca o segundo número (num2) em rbx (divisor)
+    cmp rbx, 0          ; Verifica se o divisor é zero
+    je div_error        ; Se for zero, irá para div_error
     xor rdx, rdx        ; Limpa rdx antes da divisão
-    div rbx             ; Divide rax pelo divisor (num2)
-    jmp print_result     ; Pula para imprimir o resultado
+    ; Aqui, rax já tem o dividendo (num1), e rbx tem o divisor (num2).
+    div rbx             ; Divide rax pelo divisor em rbx
+    jmp print_result
 
 div_error:
-    mov rax, 1          ; Prepara para escrever a mensagem de erro
-    mov rdi, 1          ; File descriptor para stdout
-    mov rsi, error_msg  ; Mensagem de erro
-    mov rdx, 22         ; Tamanho da mensagem de erro
-    syscall             ; Chama o sistema para escrever a mensagem
-    jmp exit            ; Sai do programa
+    mov rax, 1
+    mov rdi, 1
+    mov rsi, error_msg
+    mov rdx, 22
+    syscall
+    jmp exit
 
 print_result:
     ; Converte o resultado de volta para string
@@ -152,8 +148,8 @@ exit:
 
 str_to_int:
     ; Converte string para inteiro
-    mov rax, 0
-    mov rcx, 10
+    mov rax, 0        ; Zera o acumulador
+    mov rcx, 10       ; Multiplicador é 10
 .loop:
     movzx rdx, byte [rsi]
     cmp rdx, 10         ; Verifica se é o fim da string (enter)
@@ -161,7 +157,7 @@ str_to_int:
     sub rdx, '0'        ; Converte o caractere para número
     imul rax, rcx       ; Multiplica o número por 10
     add rax, rdx        ; Adiciona o dígito ao número
-    inc rsi
+    inc rsi              ; Avança para o próximo caractere
     jmp .loop
 .done:
     ret
